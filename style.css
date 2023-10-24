@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #efefef;
+    color: #000;
+}
+header{
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 5rem;
+    position: fixed;
+    z-index: 1000;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+font-size: 2rem;
+color: #000;
+text-decoration: none;
+}
+.middle{
+    margin-left: 2rem;
+}
+.middle .search-input{
+background: #fff;
+width: 600px;
+padding: 0.5rem;
+box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+border-radius: 10px;
+}
+.middle .search-input input{
+    width: 95%;
+    color: #626262;
+    font-size: 1rem;
+}
+.search-input i{
+    color: #626262;
+    font-size: 1rem;
+}
+.header-inside img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+.header-inside img::after{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: limegreen;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+}
+.header-inside{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin-right: 1.5rem;
+}
+.icon a{
+   font-size: 1.2rem;
+   color: #626262;
+   margin-left: 1rem;
+}
+/*--------------------gig-section---------*/
+#gig-img{
+    padding-top: 7rem;
+}
+.gig-img img{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    cursor: pointer;
+    padding-bottom: 1rem;
+}
+.gig-img a{
+    color: #626262;
+    text-decoration: none;
+    font-size: 16px;
+}
+.gig-img a:hover{
+    color: blue;
+   
+}
+/*--------------------contact section----------*/
+#footer{
+    margin-top: 100px;
+    background: #000;
+    padding-top: 2rem;
+}
+.footer{
+    color: #fff;
+}
+.footer h2{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.footer ul li{
+    display: block;
+    list-style: none;
+}
+.footer ul li a{
+    color: #fff;
+    line-height: 2em;
+    text-decoration: none;
+}
+.footer-text{
+    color: #fff;
+    text-align: center;
+    background: #000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.footer-text p{
+    text-align: center;
+}
